@@ -9,8 +9,12 @@ const CASE_STATUS = {
   recovered: "recovered",
   deaths: "deaths",
 };
-
 let body = document.querySelector("body");
+
+// window.onload = () =>{
+// body.style = 
+// }
+
 
 let countries_list;
 
@@ -34,8 +38,8 @@ loadData = async (country) => {
 
   await loadSummary(country);
 
-  loadAllTimeChart(country);
-  loadDaysChart(country);
+   await loadAllTimeChart(country);
+  await loadDaysChart(country);
   endLoading();
 };
 

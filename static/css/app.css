@@ -32,6 +32,8 @@ body{
     color: var(--color-txt);
     padding-top: calc(var(--nav-height) + 30px);
     font-size: 16px;
+  /* display: none; */
+    
 }
 .container{
     max-width: 1600px;
